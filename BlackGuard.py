@@ -1,4 +1,4 @@
-# mADE BY Luxeru.dev 
+# MADE BY Luxeru.dev 
 """
 BlackGuard  Security Bot v1.0
 ✅ Slash Commands (/)
@@ -258,6 +258,8 @@ async def cleanup():
 
 # ==================== START BOT ====================
 if __name__ == "__main__":
-    bot.run(os.getenv("DISCORD_TOKEN"))
+    bot.run(os.getenv("DISCORD_TOKEN")
+    tree.sync() 
+
 
 
