@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-LXRU Public Security Bot v5.0
+BlackGuard  Security Bot v5.0
 ✅ 100% PUBLIC - Invite & Add to ANY Server!
 ✅ Slash Commands (/)
 ✅ Auto Setup - No Config Needed!
@@ -260,3 +260,4 @@ async def cleanup():
 # ==================== START BOT ====================
 if __name__ == "__main__":
     bot.run(os.getenv("DISCORD_TOKEN"))
+
